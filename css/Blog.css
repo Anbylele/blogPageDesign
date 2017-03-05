@@ -1,0 +1,262 @@
+@font-face {
+  font-family: myfont-medium;
+  src: url(../fonts/AvenirLTStd-Medium.otf);
+}
+@font-face {
+  font-family: myfont-light;
+  src: url(../fonts/AvenirLTStd-Light.otf);
+}
+body {
+  font-family: "myfont-medium";
+}
+.navbar {
+    padding: 15px 20px 5px 20px;
+}
+
+.navbar-default {
+    background-image: none;
+    background-color: #f8f8f8;
+    border: none;
+    box-shadow: 0 1px 6px rgba(144, 143, 143, 0.4);
+    transition: 0.5s;
+    min-height: 80px;
+}
+
+#logo {
+    margin-top: -5px;
+    width: 95%;
+    height: auto;
+}
+.btn-lg {
+    margin-right: 15px;
+    border: 1px solid #939393;
+    background-color: #95C14E;
+    color: white;
+    font-size: 14px;
+    padding: 14px 25px;
+}
+.btn-lg:hover {
+  background-color: #86B330;
+  color: white;
+}
+.trans {
+    background-color: transparent;
+    color: #939393;
+}
+.trans:hover {
+  background-color: rgba(0,0,0,0.03);
+    color: #939393;
+}
+.container {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0px;
+  padding: 0;
+}
+.col-sm-8 {
+  padding-left: 20px;
+  padding-right: 60px;
+}
+.card {
+  border: 1px solid transparent;
+  padding: 15px 0px 15px 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+.card-lg {
+    margin: 30px 0 40px 0;
+}
+.card:hover {
+  box-shadow: 0px 0px 3px rgba(144, 143, 143, 0.4);
+  background-color: #fbfbfb;
+  transition: 0.2s;
+}
+a {
+  color: black;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #23527c;
+}
+p {
+  line-height: 22px;
+  color: #888;
+}
+h3 {
+  color: black
+  line-height: 55px;
+}
+.text-color-highlight {
+  color:#95C14E;
+}
+h5 {
+  color: #B8B8B8;
+  font-family: myfont-light;
+}
+.continue-reading {
+  color: #337ab7;
+}
+.continue-reading:hover{
+  color: #23527c;
+}
+
+form {
+  margin: 40px 0 20px 5px;
+}
+input[type=text] {
+  border: 1px solid rgba(117, 117, 117, 0.24);
+  width: 100%;
+  padding: 9px 15px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 14px;
+
+}
+label {
+  color: rgba(117, 117, 117, 0.5);
+  font-family: myfont-light;
+  font-size: 12px;
+}
+.fa {
+  margin: 0 3px 0 1px;
+}
+.fa-envelope {
+  color:rgba(117, 117, 117, 0.5);
+}
+.fa-twitter {
+  color: white;
+}
+input[type=submit] {
+  padding: 4px 15px 4px 15px;
+  background-color:#95C14E;
+  border-radius: 5px;
+  box-shadow: none;
+  border: 1px solid rgba(117, 117, 117, 0.5);
+  color: white;
+  font-family: myfont-medium;
+}
+input[type=submit]:hover {
+  background-color:#86B330;
+}
+.btn-follow {
+  background-color: #1b95e0;
+  padding: 4px 10px 4px 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(117, 117, 117, 0.5);
+  color: white;
+}
+.btn-follow:hover {
+  background-color: #0c7abf;
+}
+h4 {
+  font-size: 18px;
+}
+.card-img {
+  width: 24%;
+  float: left;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.card-sm {
+  margin: 0 0 0 -10px;
+  padding: 15px 20px 0 15px;
+  font-family: myfont-light;
+}
+.card-sm h4 {
+  margin: 0;
+}
+.color-grn {
+  color:#95C14E;
+    line-height: 22px;
+    font-size: 17px;
+    margin-left: 0;
+}
+.color-grey {
+  color:rgba(117, 117, 117, 0.5);
+}
+.container {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.card-xs {
+  width: 100%;
+    font-family: myfont-light;
+    padding-left: 10px;
+    margin-left: -10px;
+
+}
+.card-xs h4 {
+  line-height: 10px;
+}
+.div6 {
+    min-height: 120px;
+    background-color: #141F29;
+    color: white;
+    padding: 0;
+    text-align: center;
+}
+
+#footerlogo {
+    width: 200px;
+    padding-top: 50px;
+}
+
+.div7 ul {
+    padding-left: 0px;
+    margin: 0
+}
+
+.div7 ul li {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+
+.div7 ul li a:hover {
+    color: #888;
+    text-decoration: none;
+}
+
+.div7 ul li a {
+    color: white;
+}
+
+.div8 {
+    margin-left: auto;
+    margin-left: auto;
+}
+
+.listofsociallink {
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+}
+
+.sociallink {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #565D63;
+    margin-top: 50px;
+    padding-top: 5px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fa {
+    color: #141F29;
+}
+
+.div7 ul li {
+    margin-left: 10px;
+}
+
+.body {
+    padding-top: 70px;
+}
